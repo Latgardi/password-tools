@@ -1,0 +1,17 @@
+{
+  "name": "latgardi/password-tools",
+  "version": "0.5",
+  "description": "A lightweight PHP package to calculate password strength using entropy, with ASCII visualization and validation rules.",
+  "autoload": {
+    "psr-4": {
+      "Latgardi\\PasswordTools\\": "src",
+      "Latgardi\\PasswordTools\\Tests\\": "tests"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^12.0"
+  },
+  "scripts": {
+    "test": "./vendor/bin/phpunit tests"
+  }
+}
